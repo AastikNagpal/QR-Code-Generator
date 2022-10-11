@@ -118,8 +118,8 @@ const onSubmit = () => {
     const bgColor = backgroundColorPicker.value;
     const size = sizeSlider.value;
     const qZone = marginSlider.value;
-//     const format = imageFormat.value;
-    "const format = document.querySelector('input[name="format"]:checked')
+    const format = imageFormat.value;
+//     "const format = document.querySelector('input[name="format"]:checked')
 
     const parameters = prepareParameters({ data, color, bgColor, size, qZone, format });
 
